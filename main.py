@@ -63,8 +63,8 @@ def update(frame):
 	return line,
 
 ani = FuncAnimation(fig, update, frames=range(len(df)), init_func=init, blit=True, interval=10)
-plt.xlabel('日期')
-plt.ylabel('日最高气温(℃)')
-plt.title('香港天文台日最高气温动态变化')
+plt.xlabel('Date')
+plt.ylabel('Daily maximum temperature(℃)')
+plt.title('Hong Kong Observatory Daily Maximum Temperature Variations')
 plt.tight_layout()
 plt.show()
